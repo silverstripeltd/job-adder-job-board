@@ -14,7 +14,7 @@ class JobsAdmin extends ModelAdmin
         JobAdderSyncRecord::class,
     ];
 
-    private static $url_segment = 'jobs';
+    private static $url_segment = 'jobs-ads';
 
-    private static $menu_title = 'Jobs';
+    private static $menu_title = 'Jobs Ads';
 }
